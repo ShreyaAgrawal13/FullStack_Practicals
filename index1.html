@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0; margin: 0; box-sizing: border-box;}
+        .card
+        {
+            width : 25%;
+            background-color: white;
+            text-align: justify;
+            border: 5px solid white;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+        }
+
+        #container
+        {
+            display : inline-flex;
+        }
+
+        .card h3
+        {
+            text-align: center;
+            margin: 10px;
+        }
+
+        .card img
+        {
+            width: 100%;
+            height: 125px;
+            border-radius: 10px;
+        }
+
+        .button
+        {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: red;
+            padding : 10px 20px;
+            border-radius: 10px;
+        }
+        .button:hover
+        {
+            background-color: blue ;
+        }
+
+    </style>
+</head>
+<body style="background-color: rgb(221, 216, 216);">
+    <h1 style="color: white; text-align: center; text-transform: uppercase;">Practical 6 : Create following layout using CSS Layout Properties</h1>
+    <div id="container">
+    <div class="card">
+        <div>
+            <img src="./html.png.png" alt="HTML">
+        </div>
+        <h3>Introduction to HTML</h3>
+        <p>The HyperText Markup Language, is the standard markup language for documents designed to be displayed in a web browser.
+        It describes the structure of a Web page, consists of a series of elements. HTML elements tell the browser how to display the content.
+        </p>
+        <div style="text-align: center;">
+        <a href="./html_intro.html" class="button">Read more</a>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="./css3.png.png" alt="HTML">
+        </div>
+        <h3>Introduction to CSS</h3>
+        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
+            CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. 
+        </p>
+        <div style="text-align: center;">
+        <a href="./css_intro.html" class="button">Read more</a>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="./js.png.png" alt="HTML">
+        </div>
+        <h3>Introduction to JavaScript</h3>
+        <p>JavaScript is one of the 3 languages all web developers must learn: 1. HTML to define the content of web pages. 
+            2. CSS to specify the layout of web pages. 3. JavaScript to program the behavior of web pages. JavaScript is the programming language of the Web.
+        </p>
+        <div style="text-align: center;">
+        <a href="./js_intro.html" class="button">Read more</a>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="./bootstrap.png.png" alt="HTML">
+        </div>
+        <h3>Introduction to Bootstrap</h3>
+        <p>Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. 
+            Bootstrap 4 is the newest version of Bootstrap. Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, 
+            mobile-first websites.
+        </p>
+        <div style="text-align: center;">
+        <a href="./bootstrap_intro.html" class="button">Read more</a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
