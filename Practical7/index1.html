@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0; margin: 0; box-sizing: border-box;}
+        .container
+        {
+            margin: auto;
+            background-color: ghostwhite;
+            width: 95%;
+            margin-top: 25px;
+        }
+        .header
+        {
+            margin: auto;
+            padding: 2px;
+            background-color: cadetblue;
+            width: 100%;
+            height: 100px;
+            
+        }
+        .space1
+        {
+            height: 30px;
+        }
+        .banner
+        {
+            width: 100%;
+            height: 1000px;
+            background-color: lightblue;
+        }
+        #container{
+            display : inline-flex;
+        }
+        .circle{
+            width: 300px;
+            background-color:peru;
+            height: 300px;
+            border-radius: 50%;
+            padding: 60px;
+            margin: 20px;
+            margin-left: 40px;
+        }
+        .section-2
+        {
+            width: 100%;
+            height: 500px;
+        }
+        .left
+        {
+            width: 50%;
+            height: 500px;
+            background-color: lightslategrey;
+           content: "Main Content";
+           float: left;
+           padding-right: 3%;
+        }
+        .right
+        {
+            width: 50%;
+            height: 500px;
+            float: right;
+            padding-left: 3%;
+        }
+        .upper
+        {
+            width: 100%;
+            height: 31%;
+            background-color: coral;
+            margin-bottom: 20px;
+        }
+        .middle
+        {
+            width: 100%;
+            height: 30%;
+            background-color: coral;
+            margin-bottom: 20px;
+        }
+        .lower
+        {
+            width: 100%;
+            height: 31%;
+            background-color: coral;
+        }
+        .section-3
+        {
+            display: inline-flex;
+            width: 100%;
+            height: 500px;
+        }
+        .first
+        {
+            width: 20%;
+            height: 500px;
+            background-color: red;
+            padding: 20px;
+            margin-right: 50px;
+            margin-left: 100px;
+
+        }
+        .second
+        {
+            width: 20%;
+            height: 500px;
+            background-color: red;
+            padding: 20px;
+            margin-right: 50px;
+        }
+        .third
+        {
+            width: 20%;
+            height: 500px;
+            background-color: red;
+            padding: 20px;
+            margin-right: 50px;
+
+        }
+        .fourth
+        {
+            width: 20%;
+            height: 500px;
+            background-color: red;
+            padding: 20px;
+            margin-right: 100px;
+        }
+        .footer
+        {
+            width: 100%;
+            height: 100px;
+            margin: auto;
+            padding: 2px;
+            background-color: violet;
+            margin-bottom: 75px;
+        }
+        .heading
+        {
+            line-height: 90px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h1 class="heading">Header</h1></div>
+        <div class="space1"></div>
+        <div class="banner"><h1 style="line-height: 900px;" class="heading">Banner</h1></div> 
+        <div class="space2">
+            <h1 style="text-align: center; margin-top: 10px;">Section-1</h1>
+            <div id="container">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                </div>
+        </div>
+        <h1 style="text-align: center; margin-top: 10px;">Section-2</h1>
+        <div class="section-2">            
+            <div class="left"><h1 style="line-height: 500px;"  class="heading">Main Content</h1></div>
+            <div class="right">
+                <div class="upper"><h1 style="line-height: 150px;" class="heading">Article-1</h1></div>
+                <div class="middle"><h1 style="line-height: 150px;" class="heading">Article-2</h1></div>
+                <div class="lower"><h1 style="line-height: 150px;" class="heading">Article-3</h1></div>
+            </div>
+        </div> 
+
+        <h1 style="text-align: center; margin-top: 10px;">Section-3</h1>        
+        <div class="section-3">
+            <div class="first"></div>
+            <div class="second"></div>
+            <div class="third"></div>
+            <div class="fourth"></div>
+        </div>
+        
+        <h1 style="text-align: center; margin-top: 10px;">Section-4</h1>
+        <div class="footer"><h1 class="heading">Footer</h1></div></div>
+    </div>
+</body>
+</html>
