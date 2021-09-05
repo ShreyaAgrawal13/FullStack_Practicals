@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-8</title>
+    <style>
+        *{
+            padding:0;margin:0;box-sizing:border-box;
+        }
+        #container1
+        {
+            display:inline-flex;
+        }
+        .menu-bar{
+            width:100%;
+            background: gray;
+            text-align:center;
+            position: fixed;
+        }
+        .menu-bar ul {
+            display:inline-flex;
+            list-style: none;
+        }
+        .menu-bar ul li{
+            width: 140px;
+            margin:15px;
+            padding:15px;
+        }
+        .menu-bar ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        .menu-bar ul li:hover{
+            color: black;
+            background-color: black;
+        }
+        .menu-bar::after{
+            display:block;
+            clear:both;
+        }
+        .section{
+            height:900px;
+            width:100%;
+            background-image:url(./external-content.duckduckgo.com.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .team-members{
+            width: 100%;
+            height:400px; 
+        }
+        .myimage img{
+            border-radius: 50%;
+            display:inline-flex;
+            padding:10px; 
+            margin:20px;
+        }
+        .Section-2{
+            height:500px;
+            width:100%;
+            
+        }
+        .section10{
+            height:150px;
+            width:100%;
+        }
+        .left{
+            width:54%;
+            height:454px;
+            background-color: gray;
+            float:left;
+            color:#fff;
+            color:white;
+            margin-right: 2px;
+            margin-left: 6px;
+        }
+        .right{
+            width:44%;
+            height:454px;
+            float:right;
+        }
+        .member img{
+            width:100%;
+            height:150px;
+
+        }
+        .section-3{
+            height:500px;
+            width:100%;
+        }
+        .lastsection{
+            height:90px;
+            width:100%;
+            background-color: hotpink;
+            text-align: center;
+            padding:45px;
+        }
+        .box{
+            width: 300px;
+            height: 400px;
+            background-color: yellow;
+            overflow:hidden;
+            border: 2px solid white;
+            margin-bottom:10px;
+            text-align:justify;
+            padding:20px;
+            margin-right:20px;
+            border-radius: 20px;
+        }
+        #box1{
+            background-color: white;
+        }
+        #box2{
+            background-color: white;
+        }
+        #box3{
+            background-color: white;
+        }
+        #box4{
+            background-color:white;
+        }
+        .box img{
+            width:100%;
+            height:150px;
+            border-radius: 30px;
+        }
+        .box h2{
+            text-align: center;
+            margin:10px;
+        }
+        .mybutton{
+            display:block;
+            margin-top: 10px;
+            text-decoration: none;
+            text-align: center;
+            color:white;
+            font-family: arial;
+            background-color: red;
+            padding:10px 20px;
+            border-radius: 20px;
+        }
+        .mybutton:hover{
+            background-color: blue;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="topsection">
+    <div class="menu-bar">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#section6">ABOUT US</a></li>
+            <li><a href="#section5">TEAM</a></li>
+            <li><a href="#section7">TECHNOLOGIES</a></li>
+            <li><a href="#section9">CONTACT</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="section">
+    </div>
+    <div class="team-members">
+        <h1 id="section5" style="text-align: center; font-size: 40px;"> Team members </h1>
+        <div class="myimage">
+        <img src="./team1.png">
+        <img src="./team2.png">
+        <img src="./team3.png">
+        <img src="./team4.png">
+        </div>
+    </div>
+    <div class="Section-2">
+        <h1 id="section6" style="text-align: center; font-size: 40px;">About us</h1>
+        <div class="left">
+            <h2 style="font-size: 40px;">About Projects</h2><br>
+            <p  style="font-size:24px">temporibus similique sit tenetur quasi exercitational Repellat
+                obcaecati quibusdam iste explicabo laborum veritatis velit accusantium
+                animi dolorum nemo ut quam,quo cum in suscript fugiat minima corrupti
+                voluptates tempora alias aspermature esse dolore iure? Libero iste quo
+                nam sequi nulla,minima architecto estcum expedita omnis enim culpa reiciendis
+                nesciunt quod deserunt,nostrum corporis tempore impedit veritatis ut perspiciatis
+                rerum,Amet,harum pariatur.Quo dolorum necessitatibus eos beatae eveniet,
+                earum cum blanditis,accusamus vitae,nisi voluptas dignissimos quibusdam 
+                aut veniam deserunt accusantium possimus atque?Distinctio voluptas nemo
+                fuga laboriosam perspiciatis eum debitis nesciunt quidem iure rationel eaque 
+                eaeum maxime temporibus dolor nostrum ,lure enim,vero in atque quod animil
+                mollitia alias magnam nisi suscipit ab ducimus dolores provident,atque?Distinctio
+                veritatis quarent explicabo fuga neque culpa facere suscipit vel,totam quasi.  
+            </p>
+        </div>
+        <div class="right">
+            <div class="member">
+                <img src="./pro1.png">
+                <img src="./pro2.png">
+                <img src="./pro3.png">
+            </div>
+        </div>
+    </div>
+    <div class="section-3">
+        <h1 id="section7" style="text-align: center;">Technologies Used</h1>
+        <div id="container1">
+            <div class="box" id="box1">
+            <div class="image-heading">
+                <img src="./img1.jfif">
+            </div>
+            <h2>Introduction to html</h2>
+            <p>HyperText Markup Language or HTML is the standard markup language for documents
+                designed to be displayed in a web browser.It can be assisted by technologies
+                such as Cascading Style Sheet and Scripting language such as JavaScript.
+            </p>
+            <div class="image" style="text-align: center;">
+                <a href="./file1.html" class="mybutton" target="_blank">Read More</a>
+            </div>
+            </div>
+            <div class="box" id="box2">
+                <div class="image-heading">
+                    <img src="./img2.jfif">
+                </div>
+                <h2>Introduction to CSS</h2>
+                <p>Cascading Style Sheet is a style sheet language used for descrbing the presentation of a document
+                    written in markup language such as HTML .CSS is a cornerstone technology of the world wide web
+                    alongside HTML and JavaScript.
+                </p>
+                <div class="image" style="text-align:center">
+                    <a href="./file2.html" class="mybutton" target="_blank">Read More</a>
+                </div>
+            </div>
+            <div class="box" id="box3">
+                <div class="image-heading">
+                    <img src="./img4.png">
+                </div>
+                <h2>Introduction to Jquery</h2>
+                <p>Jquery is a fast,small,cross-platform and feature rich javascript library.It is designed to 
+                    simplify the client-side scripting of HTML.It makes thing like HTML document
+                    traversal and manipulation,animation,event handling,and AJAX very simple.
+        
+                </p>
+                <div class="image" style="text-align: center;">
+                    <a href="./file4.html" class="mybutton" target="_blank">Read More</a>
+                </div>
+             </div>
+             <div class="box" id="box4">
+                 <div class="image-heading">
+                     <img src="./img3.jfif">
+                 </div>
+                <h2>Introduction to Bootstrap</h2>
+                <p>Bootstrap is the most popular HTML,CSS and Javascript framework for developing a responsive
+                    and mobile friendly website.It is absolutely free to download and use.It is a front-end
+                </p>
+                <div class="image" style="text-align: center;">
+                    <a href="./file3.html" class="mybutton" target="_blank">Read More</a>
+                </div>
+            </div>
+            </div>
+            <div class="section10">
+                <h1 id="section9" style="text-align: center; font-size: 40px;">Contact</h1><br>
+                <div class="lastsection">
+                    <h3>Website Template for Practical-8 <a href="https://www.beta-labs.in/">Beta-labs</a></h3>
+                    <a href="#topsection">Back-to-Top</a>
+                </div>
+            </div>
+    </div>
+    </div>
+</body>
+</html>
