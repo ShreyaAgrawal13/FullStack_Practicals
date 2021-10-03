@@ -1,0 +1,51 @@
+table , tr{
+    border :1px solid;
+    border-collapse: collapse;
+}
+tr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: auto;
+    height: 55px;
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+    padding-left: 0;
+}
+
+#name{
+    width: 40%;
+    text-align: left;
+}
+td a{
+    text-decoration: none;
+    color:darkslategray;
+}
+
+th{
+    padding: 10px;
+    text-align: center;
+}
+caption{
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color:darkslategray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+}
+span{
+    margin-right: 5px;
+}
+
+#check{
+    color:rgb(12, 143, 12);
+}
+i:hover{
+    color: darkblue;
+    font-weight: bolder;
+}
