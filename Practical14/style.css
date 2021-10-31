@@ -1,18 +1,14 @@
-*
-{ 
+*{ 
     text-align: center;
 }
-
 body
 {
     background-color: black;
 }
-
 .container
 {
     display: inline-flex;
     padding: 20px;
-}
 
 .content h1
 {
@@ -21,7 +17,6 @@ body
     text-transform: uppercase;
     font-size: 48px;
 }
-
 #button1, #button2
 {
     height: 38px;
@@ -30,7 +25,6 @@ body
     font-size: 28px;
     background-color: gold;
 }
-
 #counting
 {
     font-size: 32px;
@@ -38,12 +32,10 @@ body
     margin-right: 20px;
     color: gold;
 }
-
 #button1:hover
 {
     border: solid 4px;
 }
-
 #button2:hover
 {
     border: solid 4px;
